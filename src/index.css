@@ -9,6 +9,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 header{
   margin-top: 10px;
@@ -32,22 +34,33 @@ header{
   margin: 10px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: auto;
+  width: 300px;
 }
 
 p {
-  font-size: 0.6em;
+  font-size: medium;
   color: var(--rose);
   letter-spacing: 1px;
   margin: 5px;
+  text-align: left;
 }
 
 h2 {
   color: var(--dark);
-  margin-top: -5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 .desc{
   font-size: larger;
   margin-bottom: 30px;
+}
+
+a{
+  color: #F59F12;
+  text-decoration: none;
+}
+
+a::after {
+  color: #F59F12;
 }

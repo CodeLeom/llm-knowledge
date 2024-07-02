@@ -18,7 +18,19 @@ function App() {
     {
       title: 'Data Foundation for LLMs',
       description: 'Understand how to establish the right data foundation for success with LLMs.'
-    }
+    },
+    {
+      title: 'Building GenAI applications',
+      description: 'Understand how to build a retrieval augmented generation (RAG) application, how to train and fine-tune a foundation model Evaluation and monitoring of LLMs to ensure integrity and reliability of the AI application'
+    },
+    {
+      title: 'Machine Learning Use Cases',
+      description: 'Get everything you need — use cases, code samples and notebooks — so you can start putting your knowldge to work today.'
+    },
+    {
+      title: 'Master MLOps fundamentals',
+      description: 'As machine learning has matured over time, so have the methods by which companies apply it at scale.'
+    },
   ];
   return (
     <>
@@ -27,8 +39,7 @@ function App() {
         <h1>Learn about Large Language Models (LLMs)</h1>
       </header>
       <p className="desc">Welcome here 🤗, this webpage is created for the purpose of learning about Large Language Models.
-        A chatbot is already trained to answer all your questions about LLM and it's evolution since 1950. 
-        Click the message icon at the bottom right of this webpage, type your question and it will be answered.
+        A multiple chatbots is already trained to answer all your questions about LLM, ML Ops, ML use cases, and building a GenAI application. All the chatbots are integrated into one single channel to answer these questions powered by <a href="https://console.autogon.ai/genesis" target="_blank">Autogon Genesis.</a> <br /> <br />Click the message icon at the bottom right of this webpage, type your question and it will be answered.
       </p>
 
       <h2 style={{marginBottom: "20px"}}>The chat bot is trained with the following Informations:</h2>
