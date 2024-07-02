@@ -42,7 +42,7 @@ function App() {
         A multiple chatbots is already trained to answer all your questions about LLM, ML Ops, ML use cases, and building a GenAI application. All the chatbots are integrated into one single channel to answer these questions powered by <a href="https://console.autogon.ai/genesis" target="_blank">Autogon Genesis.</a> <br /> <br />Click the message icon at the bottom right of this webpage, type your question and it will be answered.
       </p>
 
-      <h2 style={{marginBottom: "20px"}}>The chat bot is trained with the following Informations:</h2>
+      <h2 style={{marginBottom: "20px"}}>The chat bot is trained with the following Informations based on different e-books gotten from Databricks:</h2>
       <div className="card-container">
         {cards.map((card, index) => (
           <Card key={index} title={card.title} description={card.description} />
