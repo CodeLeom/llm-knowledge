@@ -29,7 +29,7 @@ function App() {
     },
     {
       title: 'Master MLOps fundamentals',
-      description: 'As machine learning has matured over time, so have the methods by which companies apply it at scale.'
+      description: 'As machine learning has matured over time, so have the methods by which companies apply it at scale. You can ask the chatbot more on this topic'
     },
   ];
   return (
